@@ -107,10 +107,15 @@ public class CharsetDetector {
             return CHARSET_ASCII;
         }
 
+        String[] prob = detector.getProbableCharsets();
+        System.out.println("ProbableCharsets:");
+        for (String charset : prob) {
+            System.out.println(charset);
+        }
         if (!found) {
-            String[] prob = detector.getProbableCharsets();
             foundCharset = prob[0];
         }
+
         found = false;
         return foundCharset;
     }

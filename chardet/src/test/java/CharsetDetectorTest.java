@@ -11,6 +11,7 @@ public class CharsetDetectorTest {
         detectCharset("D:\\书\\raw\\txt\\part0152.txt");
         detectCharset("D:\\书\\raw\\txt\\[精校]斗罗大陆.txt");
         detectCharset("D:\\书\\raw\\txt\\三剑客_utf_-16_le[1].txt");
+        detectCharset("D:\\书\\raw\\txt\\part0152-UTF-16le.txt");
         detectCharset("D:\\书\\raw\\txt\\三剑客_utf_-16_be[1].txt");
     }
 
