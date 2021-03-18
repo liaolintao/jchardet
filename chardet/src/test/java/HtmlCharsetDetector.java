@@ -38,8 +38,6 @@
  *    AutoDetect/tools/
  */
 
-package org.mozilla.intl;
-
 import org.mozilla.intl.chardet.nsDetector;
 import org.mozilla.intl.chardet.nsICharsetDetectionObserver;
 import org.mozilla.intl.chardet.nsPSMDetector;

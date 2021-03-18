@@ -1,5 +1,3 @@
-import org.mozilla.intl.CharsetDetector;
-
 /**
  * <pre>
  *     author : liao lin tao

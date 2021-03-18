@@ -1,6 +1,3 @@
-
-package org.mozilla.intl;
-
 import org.mozilla.intl.chardet.nsDetector;
 
 import java.io.BufferedInputStream;
